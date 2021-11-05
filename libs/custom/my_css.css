@@ -85,13 +85,13 @@ h4 {
 }*/
 
 .project-container {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   width: 200px;
   height: 145px;
 }
 .project-image-container {
   border: 0.0px solid rgba(0,0,0,0.2);
-  padding: 12px;
+  padding: 10px;
   transition: 0.1s;
 }
 .project-image-container:hover {
@@ -101,7 +101,7 @@ h4 {
   opacity: 0.1;
 }
 .project-caption {
-  padding: 4px;
+  padding: 6px;
 }
 
 .center {
