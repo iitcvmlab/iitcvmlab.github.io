@@ -85,13 +85,13 @@ h4 {
 }*/
 
 .project-container {
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   width: 200px;
-  height: 160px;
+  height: 150px;
 }
 .project-image-container {
-  border: 0.2px solid rgba(0,0,0,0.2);
-  padding: 6px;
+  border: 0.0px solid rgba(0,0,0,0.2);
+  padding: 7px;
   transition: 0.1s;
 }
 .project-image-container:hover {
