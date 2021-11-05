@@ -91,7 +91,7 @@ h4 {
 }
 .project-image-container {
   border: 0.2px solid rgba(0,0,0,0.2);
-  padding: 5.5px;
+  padding: 6px;
   transition: 0.1s;
 }
 .project-image-container:hover {
