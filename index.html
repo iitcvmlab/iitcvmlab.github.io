@@ -1,8 +1,134 @@
----
-layout: default
-title: Home
----
-<!-- ========== BIO ========== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>CVM Lab | Home</title>
+
+  <!-- <style type="text/css">
+    body{
+      background: url("assets/others/IIT_Stuart_Building.jpg");
+      background-repeat:  no-repeat;
+    }
+  </style> -->
+
+  <meta name="description" content="CVM Lab">
+  <meta name="author" content="CVM Lab">
+  <meta property="og:title" content="CVM Lab" />
+  <meta property="og:type" content="website" />
+  <!-- <meta property="og:url" content="http://www.martinsaveski.com" />
+  <meta property="og:site_name" content="Martin Saveski" />
+  <link rel="canonical" href="http://www.martinsaveski.com" /> -->
+  <meta property="og:url" content="http://" />
+  <meta property="og:site_name" content="CVM Lab" />
+  <link rel="canonical" href="http://" />
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/libs/external/skeleton/normalize.css>
+  <link rel="stylesheet" href=/libs/external/skeleton/skeleton.css>
+  <link rel="stylesheet" href=/libs/custom/my_css.css>
+
+  <!-- JQuery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src=/libs/external/jquery-3.1.1.min.js></script>
+
+  <!-- Font-Awesome
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/libs/external/font-awesome-4.7.0/css/font-awesome.min.css>
+
+  <!-- Academicons
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/libs/external/academicons-1.8.6/css/academicons.min.css>
+
+  <!-- Skeleton tabs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/libs/external/skeleton_tabs/skeleton-tabs.css>
+  <script src=/libs/external/skeleton_tabs/skeleton-tabs.js></script>
+
+  <!-- Timeline
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/libs/external/timeline.css>
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!--<link rel="stylesheet" href=/libs/external/github-prettify-theme.css>-->
+  <script src=/libs/custom/my_js.js></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href=/libs/icon.png>
+  <link rel="shortcut icon" type="image/png" href=/libs/icon.png>
+
+</head>
+<!-- <body background="assets/others/IIT_Stuart_Building.jpg"> -->
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+    <section class="header">
+      <div class="row">
+        <!-- <div class="three columns"> -->
+        <div class="two columns">
+          <a href="/"><img class="u-max-full-width" src=''></a>
+        </div>
+        <div class="nine columns main-description">
+            <h1>CVM Lab @ IIT</h1>
+            <p> Computer Vision and Multimedia Laboratory</p>
+            <p>Department of Computer Science, Illinois Institute of Technology</p>
+            <p><br>
+              <br>
+            </p>
+
+            <p></p>
+            <p></p>
+
+<!--               <span onclick="window.open('')" style="cursor: pointer">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </span>
+
+              <span onclick="window.open('')" style="cursor: pointer">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </span> -->
+              
+<!--               <span onclick="window.open('')" style="cursor: pointer">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </span> -->
+
+<!--               <span onclick="window.open('')" style="cursor: pointer">
+                <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i> -->
+              </span>
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href=/index.html#lab>About Us</a></li>
+          <li class="navbar-item"><a class="navbar-link" href=/index.html#news>News</a></li>
+          <li class="navbar-item"><a class="navbar-link" href=/index.html#people>People</a></li>
+          <li class="navbar-item"><a class="navbar-link" href=/index.html#publications>Research Works</a></li>
+<!--           <li class="navbar-item"><a class="navbar-link" href=/index.html#projects>Projects</a></li> -->
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ========== BIO ========== -->
 <div class="docs-section" id="lab">
   <h4>About Our Lab</h4>
   <p>
@@ -46,68 +172,224 @@ title: Home
 
   <div class="tab-content">
     <div class="tab-pane active" id="tabs1">
-      {% assign faculty-members = site.data.faculty.members | where: "current", "y" %}
-      {% for member in faculty-members %}
-        {% assign index_modulo = forloop.index0 | modulo:4 %}
-        {% if index_modulo == 0 %}
+      
+      
+        
+        
           <div class="row">
-        {% endif %}
+        
 
           <div class="three columns">
             <div class="member-container">
 
                 <div class="member-image-container">
-                  <a href="{{ member.url }}">
-                    <img src="{{ member.thumbnail }}" class="u-max-full-width" />
+                  <a href="https://tomyan555.github.io/">
+                    <img src="assets/members/Yanyan.jpeg" class="u-max-full-width" />
                   </a>
                 </div>
 
                 <div class="project-caption">
-                  <b>{{ member.title }}</b> <br/>
-                  {{ member.subtitle }}
+                  <b>Prof. Yan Yan</b> <br/>
+                  Assistant Professor
                 </div>
 
             </div>
           </div>
 
-        {% if index_modulo == 3%}
-          </div>
-        {% endif %}
-      {% endfor %}
+        
+      
     </div>
   </div>
 
   <div class="tab-content">
 <!--   <div id="tabs-2"> -->
   <div class="tab-pane active" id="tabs2">
-      {% assign current-members = site.data.members.members | where: "current", "y" %}
-      {% for member in current-members %}
-        {% assign index_modulo = forloop.index0 | modulo:4 %}
-        {% if index_modulo == 0 %}
+      
+      
+        
+        
           <div class="row">
-        {% endif %}
+        
 
           <div class="three columns">
             <div class="member-container">
 
                 <div class="member-image-container">
-                  <a href="{{ member.url }}">
-                    <img src="{{ member.thumbnail }}" class="u-max-full-width" />
+                  <a href="https://l-yezhu.github.io/">
+                    <img src="assets/members/YeZhu.jpg" class="u-max-full-width" />
                   </a>
                 </div>
 
                 <div class="project-caption">
-                  <b>{{ member.title }}</b> <br/>
-                  {{ member.subtitle }}
+                  <b>Ye Zhu</b> <br/>
+                  Ph.D. student, IIT
                 </div>
 
             </div>
           </div>
 
-        {% if index_modulo == 3%}
+        
+      
+        
+        
+
+          <div class="three columns">
+            <div class="member-container">
+
+                <div class="member-image-container">
+                  <a href="https://tuffr5.github.io/">
+                    <img src="assets/members/BinDuan_updated.jpg" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Bin Duan</b> <br/>
+                  Ph.D. student, IIT
+                </div>
+
+            </div>
           </div>
-        {% endif %}
-      {% endfor %}
+
+        
+      
+        
+        
+
+          <div class="three columns">
+            <div class="member-container">
+
+                <div class="member-image-container">
+                  <a href="https://42shawn.github.io/yuzhang.io/">
+                    <img src="assets/members/YuzhangShang.jpg" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Yuzhang Shang</b> <br/>
+                  Ph.D. student, IIT
+                </div>
+
+            </div>
+          </div>
+
+        
+      
+        
+        
+
+          <div class="three columns">
+            <div class="member-container">
+
+                <div class="member-image-container">
+                  <a href="">
+                    <img src="assets/members/ChangchangSun_updated.jpg" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Changchang Sun</b> <br/>
+                  Ph.D. student, IIT
+                </div>
+
+            </div>
+          </div>
+
+        
+          </div>
+        
+      
+        
+        
+          <div class="row">
+        
+
+          <div class="three columns">
+            <div class="member-container">
+
+                <div class="member-image-container">
+                  <a href="">
+                    <img src="assets/members/BinXie.jpg" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Bin Xie</b> <br/>
+                  Ph.D. student, IIT
+                </div>
+
+            </div>
+          </div>
+
+        
+      
+        
+        
+
+          <div class="three columns">
+            <div class="member-container">
+
+                <div class="member-image-container">
+                  <a href="">
+                    <img src="assets/members/Leischner.jpg" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Mark Leischner (Part-Time)</b> <br/>
+                  Ph.D. student, IIT
+                </div>
+
+            </div>
+          </div>
+
+        
+      
+        
+        
+
+          <div class="three columns">
+            <div class="member-container">
+
+                <div class="member-image-container">
+                  <a href="https://userweb.cs.txstate.edu/~j_n317/">
+                    <img src="assets/members/JianyuanNi.jpeg" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Jianyuan Ni (Co-Advisor)</b> <br/>
+                  Ph.D. student, TX State
+                </div>
+
+            </div>
+          </div>
+
+        
+      
+        
+        
+
+          <div class="three columns">
+            <div class="member-container">
+
+                <div class="member-image-container">
+                  <a href="">
+                    <img src="assets/members/ZhenghaoZhao.png" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Zhenghao Zhao</b> <br/>
+                  Ph.D. student, IIT
+                </div>
+
+            </div>
+          </div>
+
+        
+          </div>
+        
+      
     </div>
   </div>
 
@@ -144,83 +426,263 @@ title: Home
 
   <div class="tab-content">
     <div class="tab-pane active" id="papers-selected">
-      {% assign selected_papers = site.data.publications_selected.papers | where: "selected", "y" %}
-      {% for paper in selected_papers %}
+      
+      
         <div class="project-column">
             <div class="project-container">
                 <div class="project-image-container">
-                  <!-- <img src="{{ paper.thumbnail }}" width="200" height="120" style="vertical-align:middle" class="center"> -->
-                  <img src="{{ paper.thumbnail }}" class="u-max-full-width" class="center">
+                  <!-- <img src="assets/projects/2021_ICCV/SYZ_ICCV.jpg" width="200" height="120" style="vertical-align:middle" class="center"> -->
+                  <img src="assets/projects/2021_ICCV/SYZ_ICCV.jpg" class="u-max-full-width" class="center">
                 </div> 
               </div>
         </div>
 
         <div class="paper-columns">
         <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-          <p><i>{{ paper.venue }}</i></p>
+          <p class="title"><b>LONDON: Lipschitz Continuity Guided Knowledge Distillation</b></p>
+          <p>Yuzhang Shang, Bin Duan, Ziliang Zong, Liqiang Nie, and Yan Yan</p>
+          <p><i>International Conference on Computer Vision (ICCV), 2021</i></p>
            <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}
+            
+              <a class="button" href="https://arxiv.org/pdf/2108.12905.pdf" target="_blank">Paper</a>
+            
 
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
+            
 
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
+            
 
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
+            
 
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code| prepend: site.baseurl }}" target="_blank">Code</a>
-            {% endif %}
+            
+              <a class="button" href="https://github.com/42Shawn/LONDON/tree/master" target="_blank">Code</a>
+            
           </div>
         </div>
       </div>
 
-    {% endfor %}
+    
+        <div class="project-column">
+            <div class="project-container">
+                <div class="project-image-container">
+                  <!-- <img src="assets/publications/YZ_PAMI21.png" width="200" height="120" style="vertical-align:middle" class="center"> -->
+                  <img src="assets/publications/YZ_PAMI21.png" class="u-max-full-width" class="center">
+                </div> 
+              </div>
+        </div>
+
+        <div class="paper-columns">
+        <div class="paper">
+          <p class="title"><b>Saying the Unseen: Video Descriptions via Dialog Agents</b></p>
+          <p>Ye Zhu, Yu Wu, Yi Yang, and Yan Yan</p>
+          <p><i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021</i></p>
+           <div class="paper-buttons">
+            
+              <a class="button" href="https://arxiv.org/pdf/2106.14069.pdf" target="_blank">Paper</a>
+            
+
+            
+
+            
+
+            
+
+            
+              <a class="button" href="https://github.com/L-YeZhu/Video-Description-via-Dialog-Agents-ECCV2020" target="_blank">Code</a>
+            
+          </div>
+        </div>
+      </div>
+
+    
+        <div class="project-column">
+            <div class="project-container">
+                <div class="project-image-container">
+                  <!-- <img src="assets/publications/YZ_ECCV20.png" width="200" height="120" style="vertical-align:middle" class="center"> -->
+                  <img src="assets/publications/YZ_ECCV20.png" class="u-max-full-width" class="center">
+                </div> 
+              </div>
+        </div>
+
+        <div class="paper-columns">
+        <div class="paper">
+          <p class="title"><b>Describing Unseen Videos via Multi-Modal Cooperative Dialog Agents</b></p>
+          <p>Ye Zhu, Yu Wu, Yi Yang, and Yan Yan</p>
+          <p><i>European Conference on Computer Vision (ECCV), 2020</i></p>
+           <div class="paper-buttons">
+            
+              <a class="button" href="https://arxiv.org/pdf/2008.07935.pdf" target="_blank">Paper</a>
+            
+
+            
+
+            
+
+            
+
+            
+              <a class="button" href="https://github.com/L-YeZhu/Video-Description-via-Dialog-Agents-ECCV2020" target="_blank">Code</a>
+            
+          </div>
+        </div>
+      </div>
+
+    
     </div>
   </div>
 
   <div class="tab-content">
     <div class="tab-pane fade" id="papers-all">
-      {% assign all_papers = site.data.publications_all.papers | where: "selected", "n" %}
-      {% for paper in all_papers %}
+      
+      
       <div class="pub-columns">
         <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-          <p><i>{{ paper.venue }}</i></p>
+          <p class="title"><b>Unsupervised Neural Tracing In Densely Labeled Multispectral Brainbow Images</b></p>
+          <p>Bin Duan, Logan Walker, DouglasRoossien, Fred Shen, Dawen Cai, Yan Yan</p>
+          <p><i>IEEE International Symposium on Biomedical Imaging (ISBI), 2021</i></p>
            <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}
+            
+              <a class="button" href="https://www.biorxiv.org/content/biorxiv/early/2020/06/08/2020.06.07.138941.full.pdf" target="_blank">Paper</a>
+            
 
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
+            
 
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
+            
 
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
+            
 
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
+            
           </div>
         </div>
       </div>
-      {% endfor %}
+      
+      <div class="pub-columns">
+        <div class="paper">
+          <p class="title"><b>Learning Audio-Visual Correlations From Variational Cross-Modal Generations</b></p>
+          <p>Ye Zhu, Yu Wu, Hugo Latapie, Yi Yang, and Yan Yan</p>
+          <p><i>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2021</i></p>
+           <div class="paper-buttons">
+            
+              <a class="button" href="https://arxiv.org/pdf/2102.03424.pdf" target="_blank">Paper</a>
+            
+
+            
+
+            
+
+            
+
+            
+              <a class="button" href="https://github.com/L-YeZhu/Learning-Audio-Visual-Correlations" target="_blank">Code</a>
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="pub-columns">
+        <div class="paper">
+          <p class="title"><b>Revisiting Optical Flow Estimation in 360 Videos</b></p>
+          <p>K. Bhandari, Z. Zong, and Yan Yan</p>
+          <p><i>International Conference on Pattern Recognition (ICPR), 2020</i></p>
+           <div class="paper-buttons">
+            
+              <a class="button" href="https://arxiv.org/abs/2010.08045" target="_blank">Paper</a>
+            
+
+            
+
+            
+
+            
+
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="pub-columns">
+        <div class="paper">
+          <p class="title"><b>Audio-Visual Event Localization via Recursive Fusion by Joint Co-Attention</b></p>
+          <p>Bin Duan, Hao Tang, Wei Wang, Ziliang Zong, Guowei Yang, Yan Yan</p>
+          <p><i>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2020</i></p>
+           <div class="paper-buttons">
+            
+              <a class="button" href="https://openaccess.thecvf.com/content/WACV2021/papers/Duan_Audio-Visual_Event_Localization_via_Recursive_Fusion_by_Joint_Co-Attention_WACV_2021_paper.pdf" target="_blank">Paper</a>
+            
+
+            
+
+            
+
+            
+
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="pub-columns">
+        <div class="paper">
+          <p class="title"><b>EGOK360: A 360 Egocentric Kinetic Human Activity Video Dataset</b></p>
+          <p>K. Bhandari, Mario A. DeLaGarza, Z. Zong, Hugo Latapie, Y. Yan</p>
+          <p><i>International conference on Image Processing (ICIP), 2020</i></p>
+           <div class="paper-buttons">
+            
+              <a class="button" href="https://arxiv.org/abs/2010.08055" target="_blank">Paper</a>
+            
+
+            
+
+            
+
+            
+
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="pub-columns">
+        <div class="paper">
+          <p class="title"><b>Hierarchical HMM for Eye Movement Classifications</b></p>
+          <p>Ye Zhu, Yu Wu, Hugo Latapie, Yi Yang, and Yan Yan</p>
+          <p><i>European Conference on Computer Vision Workshop (ECCV Workshop), 2020</i></p>
+           <div class="paper-buttons">
+            
+              <a class="button" href="https://arxiv.org/pdf/2008.07961.pdf" target="_blank">Paper</a>
+            
+
+            
+
+            
+
+            
+
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="pub-columns">
+        <div class="paper">
+          <p class="title"><b> An IoT Edge Computing Framework Using Cordova Accessor Host</b></p>
+          <p>Ngu, A. H., Eyitayo, J., Yang, G., Campbell, C., Sheng, Q. Z., and Ni, J.</p>
+          <p><i>IEEE Internet of Things Journal</i></p>
+           <div class="paper-buttons">
+            
+              <a class="button" href="https://ieeexplore.ieee.org/document/9446337/authors#authors" target="_blank">Paper</a>
+            
+
+            
+
+            
+
+            
+
+            
+          </div>
+        </div>
+      </div>
+      
     </div>
 </div>
 </div>
@@ -238,64 +700,152 @@ title: Home
 
 <!--   <div class="tab-content">
     <div class="tab-pane active" id="projects-selected">
-      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
-      {% for project in selected_projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
+      
+      
+        
+        
           <div class="row">
-        {% endif %}
+        
 
           <div class="four columns">
             <div class="project-container">
 
                 <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                  <a href="https://github.com/42Shawn/LONDON/tree/master">
+                    <img src="assets/projects/2021_ICCV/SYZ_ICCV.jpg" class="u-max-full-width" />
                   </a>
                 </div>
 
                 <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
+                  <b>LONDON: Lipschitz Continuity Guided Knowledge Distillation</b> <br/>
+                  Network Compression
                 </div>
 
             </div>
           </div>
 
-        {% if index_modulo == 2 %}
+        
+      
+        
+        
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="https://github.com/L-YeZhu/Video-Description-via-Dialog-Agents-ECCV2020">
+                    <img src="assets/projects/2021_PAMI/fig2.png" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Saying the Unseen: Video Descriptions via Dialog Agents</b> <br/>
+                  Vision and Language
+                </div>
+
+            </div>
           </div>
-        {% endif %}
-      {% endfor %}
+
+        
+      
+        
+        
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="https://github.com/L-YeZhu/Video-Description-via-Dialog-Agents-ECCV2020">
+                    <img src="assets/projects/2020_ECCV/thumbnail.png" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Describing Unseen Videos via Multi-Modal Cooperative Dialog Agents</b> <br/>
+                  Vision and Language
+                </div>
+
+            </div>
+          </div>
+
+        
+          </div>
+        
+      
     </div>
 
     <div class="tab-pane" id="projects-all">
-      {% for project in site.data.projects.projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
+      
+        
+        
           <div class="row">
-        {% endif %}
+        
 
           <div class="four columns">
             <div class="project-container">
 
                 <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                  <a href="https://github.com/42Shawn/LONDON/tree/master">
+                    <img src="assets/projects/2021_ICCV/SYZ_ICCV.jpg" class="u-max-full-width" />
                   </a>
                 </div>
 
                 <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
+                  <b>LONDON: Lipschitz Continuity Guided Knowledge Distillation</b> <br/>
+                  Network Compression
                 </div>
 
             </div>
           </div>
 
-        {% if index_modulo == 2 %}
+        
+      
+        
+        
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="https://github.com/L-YeZhu/Video-Description-via-Dialog-Agents-ECCV2020">
+                    <img src="assets/projects/2021_PAMI/fig2.png" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Saying the Unseen: Video Descriptions via Dialog Agents</b> <br/>
+                  Vision and Language
+                </div>
+
+            </div>
           </div>
-        {% endif %}
-      {% endfor %}
+
+        
+      
+        
+        
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="https://github.com/L-YeZhu/Video-Description-via-Dialog-Agents-ECCV2020">
+                    <img src="assets/projects/2020_ECCV/thumbnail.png" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Describing Unseen Videos via Multi-Modal Cooperative Dialog Agents</b> <br/>
+                  Vision and Language
+                </div>
+
+            </div>
+          </div>
+
+        
+          </div>
+        
+      
     </div>
   </div>
 
@@ -310,3 +860,53 @@ title: Home
 
 </div>
  -->
+
+    <div class="footer">
+      <div class="row">
+        <div class="five columns">
+          CVM Lab
+        </div>
+        <div class="five columns">
+          Contact: 10 W 31 St, Chicago
+        </div>
+<!--         <div class="four columns">
+          
+        </div> -->
+<!--         <div class="four columns"> -->
+<!--           <span onclick="window.open('')" style="cursor: pointer">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </span>
+          <span onclick="window.open('')" style="cursor: pointer">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          </span> -->
+<!--           <span onclick="window.open('')" style="cursor: pointer">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </span>
+          <span onclick="window.open('')" style="cursor: pointer">
+            <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i> -->
+<!--           </span> -->
+<!--         </div> -->
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Google Analytics -->
+  <!-- <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  // ga('create', '', 'auto');
+  // ga('send', 'pageview');
+
+</script> -->
+
+  <!-- do not remove -->
+  <span id="62cd7b7da1aff3196fdc26b60e396df9"></span>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
