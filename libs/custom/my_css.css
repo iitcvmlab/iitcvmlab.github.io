@@ -1,5 +1,6 @@
 h4 {
-  letter-spacing: .1rem; }
+  letter-spacing: .1rem; 
+  }
 .container {
   max-width: 800px; }
 .header {
@@ -57,8 +58,8 @@ h4 {
 .project-column {
   float: left;
   width: 30%;
-  margin-right: 8px;
-  margin-bottom: 12px;
+  margin-right: 6px;
+  margin-bottom: 10px;
 }
 
 .paper-column {
@@ -85,13 +86,13 @@ h4 {
 }*/
 
 .project-container {
-  margin-bottom: 12px;
-  width: 190px;
-  height: 130px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 150px;
 }
 .project-image-container {
-  border: 0.0px solid rgba(0,0,0,0.2);
-  padding: 3px;
+  border: 0px solid rgba(0,0,0,0.2);
+  padding: 5px;
   transition: 0.1s;
 }
 .project-image-container:hover {
@@ -101,7 +102,7 @@ h4 {
   opacity: 0.1;
 }
 .project-caption {
-  padding: 6px;
+  padding: 3px;
 }
 
 .center {
